@@ -1,7 +1,7 @@
 # CAR: Conceptualization-Augmented Reasoner for Zero-Shot Commonsense Question Answering
 
-This is the official code and data repository for the paper: CAR: Conceptualization-Augmented Reasoner for Zero-Shot
-Commonsense Question Answering.
+This is the official code and data repository for the paper: [CAR: Conceptualization-Augmented Reasoner for Zero-Shot
+Commonsense Question Answering](https://arxiv.org/pdf/2305.14869.pdf).
 
 ![CAR](./demo/overview.png "CAR Framework Overview")
 
@@ -63,7 +63,10 @@ Please use the bibtex below for citing our paper:
                   Yangqiu Song and 
                   Antoine Bosselut},
   title        = {CAR: Conceptualization-Augmented Reasoner for Zero-Shot Commonsense Question Answering},
-  year         = {2023}
+  year         = {2023},
+  journal      = {CoRR},
+  volume       = {abs/2305.14869},
+  url          = {http://arxiv.org/abs/2305.14869}
 }
 ```
 
