@@ -177,11 +177,11 @@ INSTANCE_READERS = {
 }
 
 TASK_PATHS = {
-    "socialiqa": './tasks/socialiqa_dev.jsonl',
-    "piqa": './tasks/piqa_dev.jsonl',
-    "anli": './tasks/anli_dev.jsonl',
-    'commonsenseqa': './tasks/commonsenseqa_dev.jsonl',
-    'winogrande': './tasks/winogrande_dev.jsonl'
+    "socialiqa": '../tasks/socialiqa_dev.jsonl',
+    "piqa": '../tasks/piqa_dev.jsonl',
+    "anli": '../tasks/anli_dev.jsonl',
+    'commonsenseqa': '../tasks/commonsenseqa_dev.jsonl',
+    'winogrande': '../tasks/winogrande_dev.jsonl'
 }
 
 

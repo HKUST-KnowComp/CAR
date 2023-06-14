@@ -35,7 +35,7 @@ def transform_into_atomic_form(target_csv: pd.DataFrame):
     return pd.DataFrame.from_dict(append_dict)
 
 
-for threshold in tqdm([0.9995, 0.999, 0.998, 0.997, 0.995, 0.99, 0.98, 0.97, 0.95, 0.85, 0.8, 0.75, 0.7, 0.65, 0.6, 0.5]):
+for threshold in tqdm([0.99, 0.98, 0.97, 0.95, 0.85, 0.8, 0.75, 0.7, 0.65, 0.6, 0.5]):
     prediction_threshold = prediction[prediction.score >= threshold].reset_index(drop=True)
     print(Counter(prediction_threshold['relation']))
     merge_annotated = pd.concat([annotated, prediction_threshold], ignore_index=True)
